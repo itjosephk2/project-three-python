@@ -1,6 +1,6 @@
 # Dragon Ball Z Text Based Combat Game
 
-![Macro Calculator mockup image](assets/readme-files/mockup-image.png)
+![Macro Calculator mockup image](assets/readme-files/goku.png)
 
 This a text based combat game almost like pookemon where you fight different Dragon Ball Z fighters against eachother. There is a main story mode which involves four chapters. You Travel through the desert searching for an item for master roshi as Goku. Fighting whoever comes in your path. Once you return eternal doom faces the very Island you love and know as Roshi's home. Do you have what it takes to save your friends Island. The is also a tutorial mode where you fight a weakened frieza as Goku in order to get used to the controls and flow of the game. There is also a free fight mode where you can choose your character and fight against any random fighter the computer chooses. 
 
