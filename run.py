@@ -417,6 +417,57 @@ def game_loop(main_menu_choice: str) -> None:
         input("> Continue")
         main()
 
+def choose_player():
+    """
+    Menu for choosing your character
+    :return:
+    """
+    is_choosing_character = True
+    while is_choosing_character:
+        clear()
+        draw_line()
+        characters = {
+            "1": Fighter("Goku", 100, 12, 7, 12, 12),
+            "2": Fighter("Gohan", 90, 14, 6, 14, 11),
+            "3": Fighter("Vegeta", 90, 12, 8, 11, 11),
+            "4": Fighter("Picolo", 100, 10, 10, 10, 10),
+            "5": Fighter("Master Roshi", 80, 11, 8, 13, 7),
+            "6": Fighter("ox King", 120, 9, 20, 5, 5),
+            "7": Fighter("Yamcha", 80, 10, 6, 3, 8),
+            "8": Fighter("Krillin", 90, 9, 11, 6, 11),
+            "9": Fighter("King Kai", 130, 9, 7, 10, 8)
+        }
+        print("1: Goku")
+        print("2: Gohan")
+        print("3: Vegeta")
+        print("4: Picolo")
+        print("5: Master Roshi")
+        print("6: ox King")
+        print("7: Yamcha")
+        print("8: Krillin")
+        print("9: King Kai")
+        print("0: Exit")
+        draw_line()
+        character_choice = input("> ")
+        if str(character_choice) == "0":
+            main()
+        try:
+            character_choice = characters[character_choice]
+            is_choosing_character = False
+        except KeyError:
+            clear()
+            draw_line()
+            print("  Invalid choice. Please select a valid character.")
+            draw_line()
+            input("> ")
+            is_choosing_character = True
+
+    clear()
+    draw_line()
+    print("  You chose")
+    return character_choice
+
+
 if __name__ == "__main__":
     clear()
     draw_line()
