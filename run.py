@@ -487,6 +487,65 @@ def choose_enemy_character():
     clear()
     return characters[str(random.randint(1, 9))]
 
+def battle_controller(player: Fighter, enemy: Fighter):
+    """
+    Controls the flow and logic of a battle
+    :param player:
+    :param enemy:
+    :return:
+    """
+    is_battle = True
+    while is_battle:
+        if player.hp_remaining <= 0:
+            is_battle = False
+            clear()
+            draw_line()
+            print("  " + enemy.name + " wins better luck next time")
+            draw_line()
+            return False
+        elif enemy.hp_remaining <= 0:
+            is_battle = False
+            clear()
+            draw_line()
+            print("  Well done you won")
+            draw_line()
+            input("> Continue")
+            floss_dance_animation()
+            clear()
+            return True
+        clear()
+        draw_line()
+        print("  " + player.name + " HP: " + str(player.hp_remaining))
+        print("  " + enemy.name + " HP: " + str(enemy.hp_remaining))
+        draw_line()
+        input("> Continue")
+        # Decide who's turn it is
+        # based on the speed stat
+        # and previous move choice
+        # then take it in turns to move
+        if player.speed == enemy.speed:
+            if random.randint(0, 1) == 0:
+                is_player_turn = True
+            else:
+                is_player_turn = False
+        elif player.speed > enemy.speed:
+            is_player_turn = True
+        else:
+            is_player_turn = False
+
+        if is_player_turn:
+            player_turn(player, enemy)
+            show_hp(player, enemy)
+            input("> Continue")
+            enemy_turn(player, enemy)
+            if not is_player_dead(enemy):
+                player_turn(player, enemy)
+        else:
+            enemy_turn(player, enemy)
+            show_hp(player, enemy)
+            print("> Continue")
+            if not is_player_dead(player):
+                player_turn(player, enemy)
 
 if __name__ == "__main__":
     clear()
