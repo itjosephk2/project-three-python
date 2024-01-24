@@ -70,7 +70,26 @@ def draw_line():
         "--------------------------------------xX"
     )
 
-
+def main():
+    """
+    Main method that prints the main menu
+    :return:
+    """
+    clear()
+    draw_line()
+    print("  Dragon Ball Z Fighters")
+    print("  This is a dragon ball z fighting game.")
+    draw_line()
+    input("> Continue")
+    clear()
+    draw_line()
+    print("1: Story Mode")
+    print("2: Free Battle")
+    print("3: Tutorial")
+    print("0: Quit")
+    draw_line()
+    main_menu_choice = input("> ")
+    game_loop(main_menu_choice)
 
 if __name__ == "__main__":
     clear()
