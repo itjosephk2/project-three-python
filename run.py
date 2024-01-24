@@ -302,7 +302,120 @@ def goku_vs_piccolo():
     input('> Continue')
 
 
+def game_loop(main_menu_choice: str) -> None:
+    """
+    Controls the flow of the main Menu
+    :param main_menu_choice:
+    :return:
+    """
+    if main_menu_choice == "1":
+        # Creates character for the main Game
+        character_choice = Fighter("Goku", 100, 12, 7, 12, 12)
+        draw_goku()
 
+        # Chapter 1 Goku meets Yamcha
+        goku_meets_yamcha()
+        # create Yamcha character
+        enemy_character = Fighter("Yamcha", 80, 10, 6, 3, 8)
+        # Check for winner
+        is_fight_won = battle_controller(character_choice, enemy_character)
+        if not is_fight_won:
+            print("  You lost Please try again")
+            main()
+
+        # Chapter 2 Goku meets Ox King
+        goku_meets_ox_king()
+        # Reset gokus health
+        character_choice.hp_remaining = character_choice.hp
+        # create ox king character
+        enemy_character = Fighter("ox King", 120, 9, 20, 5, 5)
+        # check for winner
+        is_fight_won = battle_controller(character_choice, enemy_character)
+        if not is_fight_won:
+            print("  You lost Please try again")
+            main()
+
+        # Chapter 3 Goku trains with master roshi
+        goku_trains_with_roshi(character_choice)
+        # reset Gokus hp
+        character_choice.hp_remaining = character_choice.hp
+        # create Master Roshi character
+        enemy_character = Fighter("Master Roshi", 110, 15, 10, 20, 10)
+        # CHeck for the winner
+        is_fight_won = battle_controller(character_choice, enemy_character)
+        draw_line()
+        if not is_fight_won:
+            print("  Master Roshi: Not bad, Goku,")
+            print(" but there's always room for improvement.")
+            input('> Continue')
+            main()
+        else:
+            print("  Master Roshi: Excellent! ")
+            print("  You've grown stronger, Goku. Keep up the good work.")
+        draw_line()
+        input('> Continue')
+
+
+
+        # Chapter 3 Piccolo vs Goku
+        goku_vs_piccolo()
+
+        # Set up the final battle
+        enemy_character = Fighter("Piccolo", 150, 20, 18, 20, 16)
+
+        # Goku transforms into Super Saiyan, boosting his stats
+        character_choice = Fighter(
+            "Super Saiyan Goku", 150, 25, 20, 100, 20)
+
+        # Start the final battle with boosted stats
+        is_fight_won = battle_controller(character_choice, enemy_character)
+
+        clear()
+        draw_line()
+        if not is_fight_won:
+            print("  Piccolo: You're stronger than I expected Goku."
+                  " But this island is still mine.")
+            print("  Piccolo creates a massive energy blast,"
+                  " causing destruction around.")
+            print("  Goku and his friends are forced to retreat,"
+                  " vowing to return even stronger.")
+            print("  Master Roshi: Goku, we'll train"
+                  " harder and face Piccolo again.")
+        else:
+            print("  Goku: This is the power of a Super Saiyan!")
+            print("  Piccolo, your reign of terror ends now!")
+            print("  Piccolo, weakened and surprised by Goku's"
+                  " newfound strength, admits defeat.")
+            print("  Piccolo: You've surpassed my expectations,"
+                  " Goku. But this isn't over.")
+            print("  Piccolo retreats, promising to return stronger.")
+            print("  Master Roshi: Goku, you've become"
+                  " a true protector of this island.")
+            print("  I'm proud of you.")
+        draw_line()
+        input('> Continue')
+        main()
+
+    elif main_menu_choice == "2":
+        character_choice = choose_player()
+        enemy_character = choose_enemy_character()
+        print("  Lets fight")
+        draw_line()
+        input("> Continue")
+        battle_controller(character_choice, enemy_character)
+        main()
+    elif main_menu_choice == "3":
+        tutorial()
+    elif main_menu_choice == "0":
+        clear()
+        quit()
+    else:
+        clear()
+        draw_line()
+        print("  Please enter a valid option given above")
+        draw_line()
+        input("> Continue")
+        main()
 
 if __name__ == "__main__":
     clear()
