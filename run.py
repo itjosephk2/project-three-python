@@ -557,6 +557,20 @@ def is_player_dead(player: Fighter):
         return True
     return False
 
+def damage_calculation(attacker: Fighter, defender: Fighter, base_damage):
+    """
+    Calculates the damage of an attack
+    :param attacker:
+    :param defender:
+    :param base_damage:
+    :return:
+    """
+    damage = base_damage + attacker.attack - defender.defense
+    defender.hp_remaining -= damage
+    if defender.hp_remaining < 0:
+        defender.hp_remaining = 0
+    return damage
+
 if __name__ == "__main__":
     clear()
     draw_line()
