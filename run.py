@@ -90,6 +90,7 @@ def main():
     draw_line()
     main_menu_choice = input("> ")
     game_loop(main_menu_choice)
+    
 
 if __name__ == "__main__":
     clear()
