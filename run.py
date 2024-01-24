@@ -79,6 +79,7 @@ def draw_line():
         "--------------------------------------xX"
     )
 
+
 def main():
     """
     Main method that prints the main menu
@@ -171,6 +172,7 @@ def draw_goku():
     draw_line()
     input("> Continue")
 
+
 def goku_meets_yamcha():
     clear()
     draw_line()
@@ -212,6 +214,7 @@ def goku_meets_yamcha():
     draw_line()
     input('> Continue')
 
+
 def goku_meets_ox_king():
     clear()
     draw_line()
@@ -241,6 +244,7 @@ def goku_meets_ox_king():
     draw_line()
     input('> Continue')
     clear()
+
 
 def goku_trains_with_roshi(character: Fighter):
     clear()
@@ -417,6 +421,7 @@ def game_loop(main_menu_choice: str) -> None:
         input("> Continue")
         main()
 
+
 def choose_player():
     """
     Menu for choosing your character
@@ -467,6 +472,7 @@ def choose_player():
     print("  You chose")
     return character_choice
 
+
 def choose_enemy_character():
     """
     Randomly chooses character for the enemy
@@ -486,6 +492,7 @@ def choose_enemy_character():
     input("> Continue")
     clear()
     return characters[str(random.randint(1, 9))]
+
 
 def battle_controller(player: Fighter, enemy: Fighter):
     """
@@ -547,6 +554,7 @@ def battle_controller(player: Fighter, enemy: Fighter):
             if not is_player_dead(player):
                 player_turn(player, enemy)
 
+
 def is_player_dead(player: Fighter):
     """
     Checks if character is dead
@@ -556,6 +564,7 @@ def is_player_dead(player: Fighter):
     if player.hp_remaining <= 0:
         return True
     return False
+
 
 def damage_calculation(attacker: Fighter, defender: Fighter, base_damage):
     """
@@ -571,6 +580,7 @@ def damage_calculation(attacker: Fighter, defender: Fighter, base_damage):
         defender.hp_remaining = 0
     return damage
 
+
 def show_hp(player: Fighter, enemy: Fighter):
     """
     Displays the fighters current hp to the screen
@@ -583,6 +593,7 @@ def show_hp(player: Fighter, enemy: Fighter):
     print("  " + player.name + " HP: " + str(player.hp_remaining))
     print("  " + enemy.name + " HP: " + str(enemy.hp_remaining))
     draw_line()
+
 
 def player_turn(player: Fighter, enemy: Fighter):
     """
@@ -686,6 +697,8 @@ def enemy_turn(player: Fighter, enemy: Fighter):
         draw_line()
         input("> Continue")
 
+
+# Tutorial Main Method
 def tutorial() -> None:
     """
     This is the Tutorial method
@@ -704,6 +717,7 @@ def tutorial() -> None:
     # Start a battle here and have tutorial hints
     battle_controller(goku, frieza)
     main()
+
 
 if __name__ == "__main__":
     clear()
