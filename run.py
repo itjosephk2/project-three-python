@@ -686,6 +686,25 @@ def enemy_turn(player: Fighter, enemy: Fighter):
         draw_line()
         input("> Continue")
 
+def tutorial() -> None:
+    """
+    This is the Tutorial method
+    :return:
+    """
+    clear()
+    draw_line()
+    print("  Let us start with a tutorial of Goku vs Freiza")
+    print('  Your foe is weak so it should be easy to finish him off')
+    draw_line()
+    input("> Continue")
+    draw_line()
+    # Fighters Declared
+    goku = Fighter("Goku", 100, 10, 10, 10, 10)
+    frieza = Fighter("frieza", 90, 5, 5, 5, 5)
+    # Start a battle here and have tutorial hints
+    battle_controller(goku, frieza)
+    main()
+
 if __name__ == "__main__":
     clear()
     draw_line()
