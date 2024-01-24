@@ -467,6 +467,26 @@ def choose_player():
     print("  You chose")
     return character_choice
 
+def choose_enemy_character():
+    """
+    Randomly chooses character for the enemy
+    :return:
+    """
+    characters = {
+        "1": Fighter("Goku", 100, 12, 7, 12, 12),
+        "2": Fighter("Gohan", 90, 14, 6, 14, 11),
+        "3": Fighter("Vegeta", 90, 12, 8, 11, 11),
+        "4": Fighter("Picolo", 100, 10, 10, 10, 10),
+        "5": Fighter("Master Roshi", 80, 11, 8, 13, 7),
+        "6": Fighter("ox King", 120, 9, 20, 5, 5),
+        "7": Fighter("Yamcha", 80, 10, 6, 3, 8),
+        "8": Fighter("Krillin", 90, 9, 11, 6, 11),
+        "9": Fighter("King Kai", 130, 9, 7, 10, 8)
+    }
+    input("> Continue")
+    clear()
+    return characters[str(random.randint(1, 9))]
+
 
 if __name__ == "__main__":
     clear()
