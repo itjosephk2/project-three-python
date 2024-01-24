@@ -493,7 +493,7 @@ The application has been deployed using [Heroku](https://id.heroku.com/) by foll
 * The activity multipliers to calculate the TDEE was taken from the [Physical Activity and Controlling Weight ](https://www.k-state.edu/paccats/Contents/PA/PDF/Physical%20Activity%20and%20Controlling%20Weight.pdf) document found at the [Kansas State University](https://www.k-state.edu/) website.
 
 ### Media
-* The ASCII art is a modified version of an original art created with [ASCII-Generator](https://ascii-generator.site/).
+* The ascii art was primarily gotten from [Dragonball Ascii art](https://ascii.co.uk/art/dragonball).
 
 ### Code
 * [Stack Overflow](https://stackoverflow.com/) was consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
