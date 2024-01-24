@@ -498,7 +498,7 @@ The application has been deployed using [Heroku](https://id.heroku.com/) by foll
 ### Code
 * [Stack Overflow](https://stackoverflow.com/) was consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
 
-[Back to top ⇧](#macro-calculator)
+[Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
 ## Acknowledgements
 
