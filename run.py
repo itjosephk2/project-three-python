@@ -17,6 +17,13 @@ class Fighter:
         self.speed = speed
 
 
+def clear():
+    """
+    Clears the screen
+    :return:
+    """
+    os.system("clear")
+
 
 if __name__ == "__main__":
     clear()
