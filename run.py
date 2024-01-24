@@ -278,6 +278,31 @@ def goku_trains_with_roshi(character: Fighter):
     input('> Continue')
 
 
+def goku_vs_piccolo():
+    clear()
+    draw_line()
+    print("  The tranquil Master Roshi's island "
+          "is disrupted by an ominous presence.")
+    print("  Dark clouds gather, "
+          "a sinister figure descends: Piccolo, the evil Namekian.")
+    print("  Goku, Krillin, Yamcha, and Roshi"
+          " stand united, ready to defend their home.")
+    print("  Goku: Piccolo, what are you doing here?")
+    print("  Piccolo: I've come to claim this island,")
+    print(" and show you the true extent of my power.")
+    draw_line()
+    input('> Continue')
+
+    clear()
+    draw_line()
+    print("  Goku: Piccolo, you won't get away with threatening our home!")
+    print("  Goku unleashes his true power "
+          "and transforms into a Super Saiyan!")
+    draw_line()
+    input('> Continue')
+
+
+
 
 if __name__ == "__main__":
     clear()
