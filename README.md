@@ -488,9 +488,7 @@ The application has been deployed using [Heroku](https://id.heroku.com/) by foll
 
 ### Content
 
-* Inspiration for the calculator and the explanations were taken from [Legion Athletics](https://legionathletics.com/) as well as the Mifflin-St Jeor formula to calculate the [BMR](https://legionathletics.com/what-is-bmr/).
-
-* The activity multipliers to calculate the TDEE was taken from the [Physical Activity and Controlling Weight ](https://www.k-state.edu/paccats/Contents/PA/PDF/Physical%20Activity%20and%20Controlling%20Weight.pdf) document found at the [Kansas State University](https://www.k-state.edu/) website.
+* Inspiration for this game primarily comes from my childhood/aldut adddiction with the main line [pokemon](https://www.pokemon.com/us) games. The turn based battle game with the stats is almost entirely inspired by the [first gen pokemon games](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow) and the idea for using dragon ball z charatcers comes both from my love for the [anime](https://en.wikipedia.org/wiki/Dragon_Ball_Z) and a [pokemon mod](https://www.pokeharbor.com/2021/05/dragon-ball-z-team-training/) which allowed you to use dragon ball z fighters instead of pokemon.
 
 ### Media
 * The ascii art was primarily gotten from [Dragonball Ascii art](https://ascii.co.uk/art/dragonball).
