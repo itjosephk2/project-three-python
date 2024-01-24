@@ -25,6 +25,41 @@ def clear():
     os.system("clear")
 
 
+def floss_dance_animation():
+    """
+    Fun winning animation that looks like loading screen
+    :return:
+    """
+    frames = [
+        "   O     ",
+        "   /|\\    ",
+        "   / \\    ",
+        "          ",
+        "   O     ",
+        "  /|\\    ",
+        "  / \\    ",
+        "          ",
+        "   O     ",
+        "  /|\\    ",
+        "  / \\    ",
+        "          ",
+        "   O     ",
+        "   /|\\    ",
+        "   / \\    ",
+        "          ",
+        "   O     ",
+        "  /|\\    ",
+        "  / \\    ",
+        "          ",
+    ]
+    # Iterate through 4 lines of the array to represent a full human
+    for i in range(0, len(frames), 4):
+        clear()
+        for j in range(4):
+            print(frames[i + j])
+        time.sleep(0.2)
+
+
 if __name__ == "__main__":
     clear()
     draw_line()
