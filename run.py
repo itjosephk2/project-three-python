@@ -584,6 +584,40 @@ def show_hp(player: Fighter, enemy: Fighter):
     print("  " + enemy.name + " HP: " + str(enemy.hp_remaining))
     draw_line()
 
+def player_turn(player: Fighter, enemy: Fighter):
+    """
+    Logic and flow for players turn, Displays attack menu and chooses an attack
+    :param player:
+    :param enemy:
+    :return:
+    """
+    global is_player_turn
+    is_player_turn = True
+    global is_game_loop
+    while is_player_turn:
+        clear()
+        draw_line()
+        print("1: Punch")
+        print("2: Kick")
+        print("3: energy blast")
+        print("0: quit")
+        draw_line()
+        player_move = input("> ")
+        if player_move == "0":
+            is_game_loop = False
+            main()
+        elif player_move == "1":
+            damage_calculation(player, enemy, 40)
+            is_player_turn = False
+        elif player_move == "2":
+            damage_calculation(player, enemy, 60)
+            is_player_turn = False
+        elif player_move == "3":
+            damage_calculation(player, enemy, 20)
+            is_player_turn = False
+        else:
+            is_player_turn = True
+
 if __name__ == "__main__":
     clear()
     draw_line()
