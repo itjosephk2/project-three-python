@@ -618,6 +618,74 @@ def player_turn(player: Fighter, enemy: Fighter):
         else:
             is_player_turn = True
 
+
+def enemy_turn(player: Fighter, enemy: Fighter):
+    """
+    chooses an attack for the computer
+    :param player:
+    :param enemy:
+    :return:
+    """
+    global is_player_turn
+    is_player_turn = False
+    clear()
+    draw_line()
+    print("  Enemy Turn")
+    draw_line()
+    input("> Continue")
+    if enemy.energy_blast_counter == 1:
+        enemy_move = 4
+    else:
+        enemy_move = random.randint(1, 4)
+    if str(enemy_move) == "1":
+        damage_calculation(enemy, player, 35)
+        is_player_turn = True
+        show_hp(player, enemy)
+        print("  " + enemy.name + " used punch")
+        draw_line()
+        input("> Continue")
+        return
+    elif str(enemy_move) == "2":
+        damage_calculation(enemy, player, 30)
+        is_player_turn = True
+        show_hp(player, enemy)
+        print("  " + enemy.name + " used Kick")
+        draw_line()
+        input("> Continue")
+        return
+    elif str(enemy_move) == "3":
+        damage_calculation(enemy, player, 20)
+        is_player_turn = True
+        show_hp(player, enemy)
+        print("  " + enemy.name + " used energy ball")
+        draw_line()
+        input("> Continue")
+        return
+    elif str(enemy_move) == "4":
+        enemy.energy_blast_counter += 1
+        print(enemy.energy_blast_counter)
+        if enemy.energy_blast_counter == 2:
+            damage_calculation(enemy, player, 50)
+            is_player_turn = True
+            show_hp(player, enemy)
+            print("  " + enemy.name + " used energy blast")
+            draw_line()
+            input("> Continue")
+            return
+        else:
+            is_player_turn = True
+            show_hp(player, enemy)
+            print("  " + enemy.name + " is storing energy")
+            draw_line()
+            input("> Continue")
+            return
+    else:
+        clear()
+        draw_line()
+        print("  we have a problem")
+        draw_line()
+        input("> Continue")
+
 if __name__ == "__main__":
     clear()
     draw_line()
