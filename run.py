@@ -1,3 +1,12 @@
+import os
+import random
+import time
+
+# Tutorial system variables
+is_game_loop = True
+is_player_turn = True
+
+
 class Fighter:
     """
     Class for fighter
