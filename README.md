@@ -10,7 +10,6 @@ Visit the deployed application [here]().
 1. [User Experience (UX)](#user-experience-UX)
     1. [Project Goals](#project-goals)
     2. [User Stories](#user-stories)
-    3. [Color Scheme](#color-scheme)
     4. [Data Model](#data-model)
     5. [Flowchart](#flowchart)
 2. [Features](#features)
@@ -42,9 +41,9 @@ Visit the deployed application [here]().
 
 ### Project Goals
 
-* Display enough information about the calculator in order to make it easy to understand even for first time users.
+* Provide a text based battle game that has a story mode, free battle mode and tutorial
 
-* Each step provides the necessary information to make the program clear and intuitive.
+* The story mode has multiple fights and text to create a sense of adventure with win and lose conditions.
 
 * Provides input validation to help the user input the correct data.
 
@@ -60,23 +59,7 @@ Visit the deployed application [here]().
 
 * As a user, I want to be able to review the data I provided and correct it if needed.
 
-* As a user, I want the calculations to be displayed in a clear way and to be easy to understand.
-
-### Color Scheme
-
-[Colorama](https://pypi.org/project/colorama/) has been used to apply color to the terminal text. This in order to make the program more intuitive and easier to read. 
-
-Here are the colors being used:
-
-* Inputs are displayed in light green.
-
-* Data and the main logo is displayed in light yellow.
-
-* Errors are displayed with a red background.
-
-* Some extra information has been displayed in dim text.
-
-* Messages are displayed in the default terminal color.
+* As a user, I want to know the remaining hp of the fighters to know where i stand in the battle after every attack
 
 ### Data Model
 
@@ -96,7 +79,7 @@ The following flowchart was designed using [Miro](https://miro.com/) in order to
 
 As shown in the flowchart, the original order of some functions has been changed during the development process in to follow a more intuitive logic and sequence of events but the main idea behind the process is still the same.
 
-[Back to top ⇧](#macro-calculator)
+[Back to top ⇧](#Dragon Ball Z Text Based Combat Game)
 
 ## Features
 
