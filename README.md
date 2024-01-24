@@ -502,8 +502,10 @@ The application has been deployed using [Heroku](https://id.heroku.com/) by foll
 
 ## Acknowledgements
 
-* My partner, for her unconditional love, help and continued support in all aspects of life to make possible for me to complete this project.
+* My mento, Marcel, for his genuine interest in my best end result and invaluable support and guidance. Truly would not have done it without him.
 
-* My tutor, Marcel, for his invaluable feedback and guidance.
+* My friend and piano tuner for his support and feedback throughout the project.
+
+* My friends, for their valuable opinions and and critic during the design and development process.
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
