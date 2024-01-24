@@ -1,3 +1,44 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+if __name__ == "__main__":
+    clear()
+    draw_line()
+    print("   __")
+    print("  |  \"\"--.--.._                 "
+          "                            __..    ,--.")
+    print("  |       `.   \"-.\"\\_...-----"
+          "..._   ,--. .--..-----.._.\"\"|   |   /   /")
+    print("  |_   _    \\__   ).  \\       "
+          "    _/_ |   \\|  ||  ..    >  `.  |  /   /")
+    print("    | | `.   ._)  /|\\  \\ .-\"\"\":-\" "
+          "  \"-.   `  ||  |.'  ,'`. |  |_/_  /")
+    print("    | |_.'   |   / \"\"`  \\  ===/  "
+          "..|..  \\     ||      < \"\"  `.  \"  |/__")
+    print("    `.      .    \\ ,--   \\-..-\\  "
+          " /\"\\   /     ||  |>   )--   |    /    |")
+    print("     |__..-'__||__\\   |___\\ __.:-."
+          "._..-'_|\\___||____..-/  |__|--\"____/")
+    print("                           ______"
+          "_________________")
+    print("                          /      "
+          "                ,'")
+    print("                         /     "
+          " ___            ,'")
+    print("                        /   "
+          "_.-'  ,'        ,-'   /")
+    print("                       / ,-'"
+          " ,--."
+          "'        ,'   .'/")
+    print("                      /.'     `. "
+          "        '.  ,' /")
+    print("                     /      ,-' "
+          "      ,\"--','  /")
+    print("                          ,'    "
+          "    ,'  ,'    /")
+    print("                         ,-'   "
+          "   ,' .-'     /")
+    print("                      ,-'      "
+          "             /")
+    print("                    ,:_______"
+          "______________/")
+    draw_line()
+    time.sleep(1.5)
+    main()
