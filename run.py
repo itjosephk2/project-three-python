@@ -547,6 +547,16 @@ def battle_controller(player: Fighter, enemy: Fighter):
             if not is_player_dead(player):
                 player_turn(player, enemy)
 
+def is_player_dead(player: Fighter):
+    """
+    Checks if character is dead
+    :param player:
+    :return:
+    """
+    if player.hp_remaining <= 0:
+        return True
+    return False
+
 if __name__ == "__main__":
     clear()
     draw_line()
