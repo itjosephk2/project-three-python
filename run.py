@@ -212,6 +212,36 @@ def goku_meets_yamcha():
     draw_line()
     input('> Continue')
 
+def goku_meets_ox_king():
+    clear()
+    draw_line()
+    print("  Goku: Wow that was a great Fight.")
+    print("  Yamcha: You are a tough kid Goku.")
+    print("  Goku: thank you Master Roshi trained me and Krillen.")
+    print("  We are heading back there soon to continue our training.")
+    print("  Would you would like to join us?")
+    print("  Yamcha: Ya I would love to join"
+          " ye, I want to train under this Master Roshi")
+    print("  Goku: but first we must meet the"
+          " ox king to get something for Master Roshi")
+    draw_line()
+    input('> Continue')
+    clear()
+    draw_line()
+    print("  Goku, Krillin and yamcha walk through the dessert.")
+    print("  They find their way to the ox kings village.")
+    print("  The OX King appears")
+    print("  OX King: Who dares come onto my land")
+    print("  Goku: Hi, I am Goku,")
+    print("  Master Roshi Sent us to collect a package")
+    print("  OX King: Master Roshi You say, Prove it!")
+    print("  He is the best trainer in all the planet.")
+    print("  Beat me in a fight and I will know you are telling the truth")
+    print("  Goku: Let's Fight!")
+    draw_line()
+    input('> Continue')
+    clear()
+
 if __name__ == "__main__":
     clear()
     draw_line()
