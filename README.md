@@ -63,13 +63,13 @@ Visit the deployed application [here]().
 
 ### Data Model
 
-Simple data as the name, age, weight and height are being returned and stored as variables in order to access them in the future to display the data back to the user or to make calculations.
+The main data for this game is the fighters. Theyre data is stored as objects where stats such as hp, attack, defence, special, speed.
 
-The unit selector returns 1 or 2 to be able to use them in if statements to choose different paths in the logic.
+There is input data collected and stored in variables for mening both for the main menu and the battle scene when a move is being selected
 
-More complex data as the gender, activity level, user's goal and diet is being stored as dictionaries as they contain a description of the selection to display back to the user, but also contain values to use in the different calculations.
+Damage calculation method takes in the appropriate damage of the move and a small and simple algorithym calculates the damage dealth based on the stats of the attacler and defender. This is then utilised to update the defending fighters remaining hp.
 
-Calculations are stored as variables to be able to format them and display them back to the user.
+The remainning hp is utilised to display to the user how much health they have left. The hp stat is the overall hp the character starts with, which can be used to reset their hp to full if needed. 
 
 ### Flowchart
 
@@ -204,7 +204,7 @@ The developer is planning to implement the possibility to input custom macronutr
 
 It was decided not to implement this feature at this point as it became bit confusing for the user. Once this feature is implemented it will need to be very intuitive to use.
 
-[Back to top ⇧](#macro-calculator)
+[Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
 ## Technologies Used
 
@@ -214,18 +214,14 @@ It was decided not to implement this feature at this point as it became bit conf
 
 ### Frameworks, Libraries and Programs Used
 
-* [GitPod](https://gitpod.io/) was used for writing code, committing, and then pushing to GitHub.
+* [Pycharm](https://www.jetbrains.com/pycharm/) was used for writing code.
 
 * [GitHub](https://github.com/) was used to store the project after pushing.
 
 * [Heroku](https://id.heroku.com/) was used to deploy the application.
 
-* [PEP8 online check](http://pep8online.com/) was used to validate the Python code.
-
-* [PrettyTable](https://pypi.org/project/prettytable/) library was used to present the data in table format.
-
-* [Colorama](https://pypi.org/project/colorama/) library was used to apply color to the terminal text. 
-
+* [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the Python code.
+ 
 * [Miro](https://miro.com/) was used to create the program flowchart.
 
 [Back to top ⇧](#macro-calculator)
