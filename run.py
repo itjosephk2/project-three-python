@@ -571,6 +571,19 @@ def damage_calculation(attacker: Fighter, defender: Fighter, base_damage):
         defender.hp_remaining = 0
     return damage
 
+def show_hp(player: Fighter, enemy: Fighter):
+    """
+    Displays the fighters current hp to the screen
+    :param player:
+    :param enemy:
+    :return:
+    """
+    clear()
+    draw_line()
+    print("  " + player.name + " HP: " + str(player.hp_remaining))
+    print("  " + enemy.name + " HP: " + str(enemy.hp_remaining))
+    draw_line()
+
 if __name__ == "__main__":
     clear()
     draw_line()
