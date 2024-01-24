@@ -242,6 +242,43 @@ def goku_meets_ox_king():
     input('> Continue')
     clear()
 
+def goku_trains_with_roshi(character: Fighter):
+    clear()
+    draw_line()
+    print("  Goku, Krillin, and Yamcha return to Master Roshi's island.")
+    print("  Master Roshi: Welcome back, my students.")
+    print("  I see you've gained some experience.")
+    print("  Goku: Yes, Master Roshi. ")
+    print("  We had some adventures and even made a new friend, Yamcha.")
+    print("  Master Roshi: Good to meet you, Yamcha.")
+    print(" Now, Goku, it's time for some training.")
+    print("  Goku: I'm ready, Master.")
+    draw_line()
+    input('> Continue')
+    clear()
+    draw_line()
+    print("  Master Roshi trains Goku intensely, ")
+    print("  focusing on enhancing his strength, speed, and techniques.")
+    print("  After weeks of training, "
+          "Goku's stats have improved significantly.")
+    print(f"  {character.name}'s Stats After Training:")
+    print(f"  HP: {character.hp + 20}")
+    print(f"  Attack: {character.attack + 5}")
+    print(f"  Defense: {character.defense + 3}")
+    print(f"  Special: {character.special + 5}")
+    print(f"  Speed: {character.speed + 3}")
+    draw_line()
+    input('> Continue')
+    clear()
+    draw_line()
+    print("  Master Roshi: Well done, Goku. ")
+    print("  Now, let's see how much you've improved.")
+    print("  Goku and Master Roshi engage in a friendly spar.")
+    draw_line()
+    input('> Continue')
+
+
+
 if __name__ == "__main__":
     clear()
     draw_line()
