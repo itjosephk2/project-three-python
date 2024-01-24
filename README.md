@@ -1,4 +1,4 @@
-# Macro Calculator
+# Dragon Ball Z Text Based Combat Game
 
 ![Macro Calculator mockup image](assets/readme-files/mockup-image.png)
 
