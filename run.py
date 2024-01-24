@@ -60,6 +60,18 @@ def floss_dance_animation():
         time.sleep(0.2)
 
 
+def draw_line():
+    """
+    Prints a border for the screen width
+    :return:
+    """
+    print(
+        "Xx-------------------------------------"
+        "--------------------------------------xX"
+    )
+
+
+
 if __name__ == "__main__":
     clear()
     draw_line()
