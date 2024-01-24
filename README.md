@@ -75,9 +75,9 @@ Calculations are stored as variables to be able to format them and display them 
 
 The following flowchart was designed using [Miro](https://miro.com/) in order to plan the logic to be implemented in the program.
 
-![Macro Calculator Flowchart](assets/readme-files/flowchart.jpg)
+![Game overview Flowchart](assets/readme-files/flow-chart.png)
 
-As shown in the flowchart, the original order of some functions has been changed during the development process in to follow a more intuitive logic and sequence of events but the main idea behind the process is still the same.
+As shown in the flowchart, this is the overall flow of the main menuing of the game
 
 [Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
