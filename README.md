@@ -79,7 +79,7 @@ The following flowchart was designed using [Miro](https://miro.com/) in order to
 
 As shown in the flowchart, the original order of some functions has been changed during the development process in to follow a more intuitive logic and sequence of events but the main idea behind the process is still the same.
 
-[Back to top ⇧](#Dragon Ball Z Text Based Combat Game)
+[Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
 ## Features
 
