@@ -457,6 +457,12 @@ def choose_player():
         try:
             character_choice = characters[character_choice]
             is_choosing_character = False
+            clear()
+            draw_line()
+            print("  You chose " + character_choice.name)
+            draw_line()
+            input("> Continue")
+            return character_choice
         except KeyError:
             clear()
             draw_line()
@@ -464,11 +470,6 @@ def choose_player():
             draw_line()
             input("> ")
             is_choosing_character = True
-
-    clear()
-    draw_line()
-    print("  You chose")
-    return character_choice
 
 
 def choose_enemy_character():
