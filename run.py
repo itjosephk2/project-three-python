@@ -255,7 +255,7 @@ def goku_trains_with_roshi(character: Fighter):
     print("  Goku: Yes, Master Roshi. ")
     print("  We had some adventures and even made a new friend, Yamcha.")
     print("  Master Roshi: Good to meet you, Yamcha.")
-    print(" Now, Goku, it's time for some training.")
+    print("  Now, Goku, it's time for some training.")
     print("  Goku: I'm ready, Master.")
     draw_line()
     input('> Continue')
@@ -293,7 +293,7 @@ def goku_vs_piccolo():
           " stand united, ready to defend their home.")
     print("  Goku: Piccolo, what are you doing here?")
     print("  Piccolo: I've come to claim this island,")
-    print(" and show you the true extent of my power.")
+    print("  and show you the true extent of my power.")
     draw_line()
     input('> Continue')
 
