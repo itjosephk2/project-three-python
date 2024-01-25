@@ -20,8 +20,8 @@ Visit the deployed application [here]().
     5. [Character Selection](#character-selection)
     6. [HP Screen](#hp-screen)
     7. [Move Choice Screen](#move-choice-screen)
-    8. [Enemy Turn](#enemy-turn)
-    9. [Enemy Move](#enemy-move-turn)
+    8. [Enemy Turn](#enemy-turn-screen)
+    9. [Enemy Move](#enemy-move-turn-screen)
 3. [Technologies Used](#technologies-used)
     1. [Language Used](#language-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -146,7 +146,7 @@ Some activity: | 1.55
 A lot of activity: | 1.725
 A TON of activity: | 1.9
 
-### Enemy TMove Screen
+### Enemy Move Screen
 
 Calculate the total daily calories to be consumed by using the value of the selected goal multiplied by the TDEE.
 
