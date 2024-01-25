@@ -97,9 +97,9 @@ Allow the users to select the game mode they wish to play
 
 ### Tutorial Screen
 
-Allow the users to select their activity level in order to calculate the total daily energy expenditure (TDEE) based on this activity level.
+Introduces the user to the tutorial fight and the objective of the battle.
 
-![Activity Level Selection](assets/readme-files/activity-level.png)
+![Tutorial Screen](assets/readme-files/tutorial-screen.png)
 
 ### Story Screen
 
