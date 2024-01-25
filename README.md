@@ -157,7 +157,7 @@ Displays the remaing hp to the screen after the enemys turn and tells you what m
  
 * [Miro](https://miro.com/) was used to create the program flowchart.
 
-[Back to top ⇧](#macro-calculator)
+[Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
 ## Testing
 
