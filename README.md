@@ -115,10 +115,9 @@ Shows the menu for the character selection screen that is used for the free figh
 
 ### HP Screen
 
-Allow the users to review the data input and give them the possibility to enter the data again if a mistake has been made.
+Diosplays the current health points remaining from the the fighters in combat.
 
-![Review Data](assets/readme-files/review-data.png)
-![Review Data Question](assets/readme-files/review-data-question.png)
+![HP Screen](assets/readme-files/hp-screen.png)
 
 ### Move Choice Screen
 
