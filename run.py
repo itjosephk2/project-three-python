@@ -488,9 +488,13 @@ def choose_enemy_character():
         "8": Fighter("Krillin", 90, 9, 11, 6, 11),
         "9": Fighter("King Kai", 130, 9, 7, 10, 8)
     }
-    input("> Continue")
+    foe_character = characters[str(random.randint(1, 9))]
     clear()
-    return characters[str(random.randint(1, 9))]
+    draw_line()
+    print("  You are fighting against " + foe_character.name)
+    draw_line()
+    input("> Continue")
+    return foe_character
 
 
 def battle_controller(player: Fighter, enemy: Fighter):
