@@ -107,7 +107,7 @@ Allow the users to select their desired goal . The program will then use this go
 
 ![Goal Selection](assets/readme-files/goal.png)
 
-### Character Choice Screen
+### Character Selection Screen
 
 Allow the users to select thier prefered diet. This diet will dictate the split of the macronutrients.
 
