@@ -203,7 +203,7 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <th>Pass/Fail</th>
     </tr>
     <tr>
-        <td>Main Menu</td>
+        <td rowspan=4 >Main Menu</td>
         <td>Validate if value is invalid</td>
         <td><img src=assets/readme-files/main-menu-incorrect.png alt="Invalid imput in Main Menu"></td>
         <td>Pass</td>
