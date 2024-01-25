@@ -359,8 +359,6 @@ def game_loop(main_menu_choice: str) -> None:
         draw_line()
         input('> Continue')
 
-
-
         # Chapter 3 Piccolo vs Goku
         goku_vs_piccolo()
 
@@ -627,6 +625,11 @@ def player_turn(player: Fighter, enemy: Fighter):
             damage_calculation(player, enemy, 20)
             is_player_turn = False
         else:
+            clear()
+            draw_line()
+            print("Please select a valid move from the list above")
+            draw_line()
+            input("> Continue")
             is_player_turn = True
 
 
