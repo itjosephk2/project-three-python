@@ -21,7 +21,7 @@ Visit the deployed application [here]().
     6. [HP Screen](#hp-screen)
     7. [Move Choice Screen](#move-choice-screen)
     8. [Enemy Turn](#enemy-turn-screen)
-    9. [Enemy Move](#enemy-move-turn-screen)
+    9. [Enemy Move](#enemy-move-screen)
 3. [Technologies Used](#technologies-used)
     1. [Language Used](#language-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
