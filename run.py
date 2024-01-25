@@ -401,6 +401,8 @@ def game_loop(main_menu_choice: str) -> None:
     elif main_menu_choice == "2":
         character_choice = choose_player()
         enemy_character = choose_enemy_character()
+        clear()
+        draw_line()
         print("  Lets fight")
         draw_line()
         input("> Continue")
