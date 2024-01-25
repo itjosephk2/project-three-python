@@ -620,7 +620,7 @@ def player_turn(player: Fighter, enemy: Fighter):
             is_player_turn = False
             clear()
             draw_line()
-            print("You used Punch")
+            print("  You used Punch")
             draw_line()
             input("> Continue")
         elif player_move == "2":
@@ -628,7 +628,7 @@ def player_turn(player: Fighter, enemy: Fighter):
             is_player_turn = False
             clear()
             draw_line()
-            print("You used Kick")
+            print("  You used Kick")
             draw_line()
             input("> Continue")
         elif player_move == "3":
@@ -636,13 +636,13 @@ def player_turn(player: Fighter, enemy: Fighter):
             is_player_turn = False
             clear()
             draw_line()
-            print("You used Energy Blast")
+            print("  You used Energy Blast")
             draw_line()
             input("> Continue")
         else:
             clear()
             draw_line()
-            print("Please select a valid move from the list above")
+            print("  Please select a valid move from the list above")
             draw_line()
             input("> Continue")
             is_player_turn = True
