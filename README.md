@@ -230,18 +230,29 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Validate if main menu input is option 1</td>
+        <td>Validate if move selection input is option 1</td>
         <td><img src=assets/readme-files/punch.png alt="Unit value is option 1"></td>
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Validate if main menu input is option 2</td>
+        <td>Validate if move selection input is option 2</td>
         <td><img src=assets/readme-files/kick.png alt="Unit value is option 2"></td>
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Validate if main menu input is option 3</td>
+        <td>Validate if move selection input is option 3</td>
         <td><img src=assets/readme-files/energy-blast.png alt="Unit value is option 3"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td rowspan=2 >Character Selection</td>
+        <td>Validate if character selection is invalid</td>
+        <td><img src=assets/readme-files/invalid-character-choice.png alt="character choice is invalid"></td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>Validate if character selection is valid</td>
+        <td><img src=assets/readme-files/valid-character-choice.png alt="character choice is valid"></td>
         <td>Pass</td>
     </tr>
 </table>
