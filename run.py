@@ -618,15 +618,27 @@ def player_turn(player: Fighter, enemy: Fighter):
         elif player_move == "1":
             damage_calculation(player, enemy, 40)
             is_player_turn = False
+            clear()
+            draw_line()
             print("You used Punch")
+            draw_line()
+            input("> Continue")
         elif player_move == "2":
             damage_calculation(player, enemy, 60)
             is_player_turn = False
+            clear()
+            draw_line()
             print("You used Kick")
+            draw_line()
+            input("> Continue")
         elif player_move == "3":
             damage_calculation(player, enemy, 20)
             is_player_turn = False
+            clear()
+            draw_line()
             print("You used Energy Blast")
+            draw_line()
+            input("> Continue")
         else:
             clear()
             draw_line()
