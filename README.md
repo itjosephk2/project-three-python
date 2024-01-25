@@ -89,38 +89,38 @@ Introduce player to the game
 
 Due to the biological characteristics needed for the BMR calculation, sex has been used over gender.
 
-### System of Measurement Selection
+### Main Menu Screen
 
 Allow the users to select the System of Measurement they are more confortable with.
 
 ![System of Measurement Selection](assets/readme-files/system-of-measurement.png)
 
-### Activity Level Selection
+### Tutorial Screen
 
 Allow the users to select their activity level in order to calculate the total daily energy expenditure (TDEE) based on this activity level.
 
 ![Activity Level Selection](assets/readme-files/activity-level.png)
 
-### Goal Selection
+### Story Screen
 
 Allow the users to select their desired goal . The program will then use this goal to calculate the total daily calories and the macronutrients split based on this goal.
 
 ![Goal Selection](assets/readme-files/goal.png)
 
-### Diet Selection
+### Character Choice Screen
 
 Allow the users to select thier prefered diet. This diet will dictate the split of the macronutrients.
 
 ![Diet Selection](assets/readme-files/diet.png)
 
-### Review Data
+### HP Screen
 
 Allow the users to review the data input and give them the possibility to enter the data again if a mistake has been made.
 
 ![Review Data](assets/readme-files/review-data.png)
 ![Review Data Question](assets/readme-files/review-data-question.png)
 
-### BMR Calculator
+### Move Choice Screen
 
 The program use the [Mifflin-St Jeor formula](https://pubmed.ncbi.nlm.nih.gov/2305711/) to calculate the user's basal metabolic rate (BMR) using the input provided.
 
@@ -132,7 +132,7 @@ The program use the [Mifflin-St Jeor formula](https://pubmed.ncbi.nlm.nih.gov/23
 
 *Female BMR* = [9.99 x weight (kg)] + [6.25 x height (cm)] – [4.92 x age (years)] – 161
 
-### TDEE Calculator
+### Enemy Turn Screen
 
 The program use the the value of the selected activity level multiplied by the BMR to calculate the user's total daily energy expenditure (TDEE)..
 
@@ -146,7 +146,7 @@ Some activity: | 1.55
 A lot of activity: | 1.725
 A TON of activity: | 1.9
 
-### Calories Goal Calculator
+### Enemy TMove Screen
 
 Calculate the total daily calories to be consumed by using the value of the selected goal multiplied by the TDEE.
 
@@ -171,36 +171,6 @@ Rate | Value
 Slow | 1.08
 Moderate | 1.17
 Fast | 1.34
-
-### Macronutrients Calculator
-
-Use the macronutrient split returned when the diet is selected in order to calculate the macronutrients in grams to be consumed every day.
-
-![Macronutrients](assets/readme-files/macros.png)
-
-**Macronutrients Split Percentage**
-
-Diet | Protein | Carbs | Fat
---- | ---| --- | ---
-Balanced | 40% | 30% | 30%
-Low-carb | 40% | 20% | 40%
-High-carb | 30% | 50% | 20%
-High-protein | 40% | 20% | 40%
-Ketogenic | 40% | 10% | 50%
-
-### Restart Program
-
-Allow the user to keep running or exit the program.
-
-![Program Loop Question](assets/readme-files/keep-running.png)
-
-### Future Features
-
-**Custom Macronutrients Split**
-
-The developer is planning to implement the possibility to input custom macronutrients split when selecting the diet. This will be done by selecting a custom diet and then entering a percentage for each macronutrient (protein, carbs and fat).
-
-It was decided not to implement this feature at this point as it became bit confusing for the user. Once this feature is implemented it will need to be very intuitive to use.
 
 [Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
