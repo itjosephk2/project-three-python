@@ -209,11 +209,6 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Validate if main menu input is invalid</td>
-        <td><img src=assets/readme-files/unit-invalid.png alt="Unit value is invalid"></td>
-        <td>Pass</td>
-    </tr>
-    <tr>
         <td>Validate if main menu input is option 1</td>
         <td><img src=assets/readme-files/goku.png alt="Unit value is option 1"></td>
         <td>Pass</td>
