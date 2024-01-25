@@ -213,7 +213,6 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <td><img src=assets/readme-files/sex-invalid.png alt="Sex value is invalid"></td>
         <td>Pass</td>
     </tr>
-        <tr>
         <td rowspan=2>Unit Selection</td>
         <td>Validate if value is empty</td>
         <td><img src=assets/readme-files/unit-empty.png alt="Unit value is empty"></td>
