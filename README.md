@@ -111,7 +111,7 @@ One of numerous screens that display the content of the story. This lays out the
 
 Shows the menu for the character selection screen that is used for the free fight section of the main menu. The computer randomly chooses one of these characters for you to fight.
 
-![Character Selection Screen](assets/readme-files/character-choice.png)
+![Character Selection Screen](assets/readme-files/character-choice-screen.png)
 
 ### HP Screen
 
