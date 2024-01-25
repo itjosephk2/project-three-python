@@ -381,8 +381,6 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <td><img src=assets/readme-files/keep-running.png alt="Restart the program"></td></tr>
 </table>
 
-* As a user, I want to know the remaining hp of the fighters to know where i stand in the battle after every attack
-
 ## Deployment
 
 The application has been deployed using [Heroku](https://id.heroku.com/) by following these steps:
