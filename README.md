@@ -87,7 +87,7 @@ As shown in the flowchart, this is the overall flow of the main menuing of the g
 
 Introduce player to the game
 
-![User Information Input](assets/readme-files/welcome-screen.png)
+![Welcome Screen](assets/readme-files/welcome-screen.png)
 
 Due to the biological characteristics needed for the BMR calculation, sex has been used over gender.
 
