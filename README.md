@@ -103,9 +103,9 @@ Introduces the user to the tutorial fight and the objective of the battle.
 
 ### Story Screen
 
-Allow the users to select their desired goal . The program will then use this goal to calculate the total daily calories and the macronutrients split based on this goal.
-
-![Goal Selection](assets/readme-files/goal.png)
+One of numerous screens that display the content of the story. This lays out the main storyline and the context for the upcoming fight.
+ 
+![Story Screen](assets/readme-files/story-screen.png)
 
 ### Character Selection Screen
 
