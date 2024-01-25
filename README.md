@@ -55,8 +55,6 @@ Visit the deployed application [here]().
 
 * As a user, I want to receive clear feedback in case I provide the wrong input.
 
-* As a user, I want to be able to review the data I provided and correct it if needed.
-
 * As a user, I want to know the remaining hp of the fighters to know where i stand in the battle after every attack
 
 ### Data Model
@@ -165,37 +163,25 @@ Displays the remaing hp to the screen after the enemys turn and tells you what m
 
 * As a user, I want to receive information about the main objective of the program.
 
-    - Information about the program is presented in the welcome message explaining the use of the application.
+    - Information about the program is presented in the welcome message explaining the use of the game.
 
-    - Details are provided together with the results to further explain the different terms.
+    - Details are provided in each section to explain what it is to do next.
 
 * As a user, I want to easily understand what input is needed on each step.
 
-    - Input messages are being provided with detailed information on what the input needs to be.
+    - Numbers are labbled beside the actions wanted to know which input to use to navigate the menu.
 
-    - Input messages text is colored in light green to make them noticeable.
+    - Input messages text continue is labled when just an enter is all that is neccissary.
 
 * As a user, I want to receive clear feedback in case I provide the wrong input.
 
     - Error messages are provided explaining what is wrong with the input provided in case the wrong input is entered.
 
-    - Some values as age, weight and height are being limited in order to gather the correct information and avoid mistypes.
+* As a user, I want to know the remaining hp of the fighters to know where I stand in the battle after every attack
 
-    - Error messages have a red background to make them noticeable.
+    - During the batte the user and enemy hp remaining is printed to screen before any choices need to be made by the user.
 
-* As a user, I want to be able to review the data I provided and correct it if needed.
-
-    - Added a feature where the user can easily see the data entered and decide to continue or enter the data again.
-
-    - The data is being presented in table format to make it easier to review.
-
-    - The input data is colored in light yellow to make it as clear as possible.
-
-* As a user, I want the calculations to be displayed in a clear way and to be easy to understand.
-
-    - Calculations are being formatted and presented at the end of the program with explanation for the different results.
-
-    - The result data is colored in light yellow to make it as clear as possible.
+    - After the enemys turn it is also printed to the screen to allow you to understand how much damage your opponent did and how much they could potentially do.
 
 ### Code Validation
 
