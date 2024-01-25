@@ -91,9 +91,9 @@ Due to the biological characteristics needed for the BMR calculation, sex has be
 
 ### Main Menu Screen
 
-Allow the users to select the System of Measurement they are more confortable with.
+Allow the users to select the game mode they wish to play
 
-![System of Measurement Selection](assets/readme-files/system-of-measurement.png)
+![Main Menu](assets/readme-files/main-menu.png)
 
 ### Tutorial Screen
 
