@@ -115,61 +115,27 @@ Shows the menu for the character selection screen that is used for the free figh
 
 ### HP Screen
 
-Diosplays the current health points remaining from the the fighters in combat.
+Displays the current health points remaining from the the fighters in combat.
 
 ![HP Screen](assets/readme-files/hp-screen.png)
 
 ### Move Choice Screen
 
-The program use the [Mifflin-St Jeor formula](https://pubmed.ncbi.nlm.nih.gov/2305711/) to calculate the user's basal metabolic rate (BMR) using the input provided.
+Displays the moves to the screen and waits for user inoput on what move to select for the user fighter.
 
-![BMR](assets/readme-files/bmr.png)
-
-**Mifflin-St Jeor Formula**
-
-*Male BMR* = [9.99 x weight (kg)] + [6.25 x height (cm)] – [4.92 x age (years)] + 5
-
-*Female BMR* = [9.99 x weight (kg)] + [6.25 x height (cm)] – [4.92 x age (years)] – 161
+![HP Screen](assets/readme-files/move-choice-screen.png)
 
 ### Enemy Turn Screen
 
-The program use the the value of the selected activity level multiplied by the BMR to calculate the user's total daily energy expenditure (TDEE)..
+Lets the player know it is the enemies turn.
 
-![TDEE](assets/readme-files/tdee.png)
-
-Activity Level | Value
----|---
-No activity: | 1.2
-A little activity: | 1.375
-Some activity: | 1.55
-A lot of activity: | 1.725
-A TON of activity: | 1.9
+![HP Screen](assets/readme-files/enemy-turn.png)
 
 ### Enemy Move Screen
 
-Calculate the total daily calories to be consumed by using the value of the selected goal multiplied by the TDEE.
+Displays the remaing hp to the screen after the enemys turn and tells you what move the enemy used.
 
-![Calories Goal](assets/readme-files/calories-goal.png)
-
-**Lose Weight**
-
-Rate | Value
---- | ---
-Slow | 0.91
-Moderate | 0.82
-Fast | 0.65
-
-**Maintain Weight**
-
-Keeps the same TDEE value.
-
-**Gain Weight**
-
-Rate | Value
---- | ---
-Slow | 1.08
-Moderate | 1.17
-Fast | 1.34
+![HP Screen](assets/readme-files/enemy-turn-move.png)
 
 [Back to top ⇧](#Dragon-Ball-Z-Text-Based-Combat-Game)
 
