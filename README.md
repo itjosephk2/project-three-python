@@ -109,9 +109,9 @@ One of numerous screens that display the content of the story. This lays out the
 
 ### Character Selection Screen
 
-Allow the users to select thier prefered diet. This diet will dictate the split of the macronutrients.
+Shows the menu for the character selection screen that is used for the free fight section of the main menu. The computer randomly chooses one of these characters for you to fight.
 
-![Diet Selection](assets/readme-files/diet.png)
+![Character Selection Screen](assets/readme-files/character-choice.png)
 
 ### HP Screen
 
