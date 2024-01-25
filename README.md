@@ -209,16 +209,6 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
         <td>Pass</td>
     </tr>
     <tr>
-        <td>Validate if invalid value</td>
-        <td><img src=assets/readme-files/sex-invalid.png alt="Sex value is invalid"></td>
-        <td>Pass</td>
-    </tr>
-        <td rowspan=2>Unit Selection</td>
-        <td>Validate if value is empty</td>
-        <td><img src=assets/readme-files/unit-empty.png alt="Unit value is empty"></td>
-        <td>Pass</td>
-    </tr>
-    <tr>
         <td>Validate if main menu input is invalid</td>
         <td><img src=assets/readme-files/unit-invalid.png alt="Unit value is invalid"></td>
         <td>Pass</td>
