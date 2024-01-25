@@ -190,7 +190,7 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly duri
 * Before
 ![PEP8 Code Validation](assets/readme-files/errors.png)
 
-*After
+* After
 ![PEP8 Code Validation](assets/readme-files/errors-fixed.png)
 
 ### Manual Testing
