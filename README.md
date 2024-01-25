@@ -17,7 +17,7 @@ Visit the deployed application [here]().
     2. [Main menu](#main-menu-screen)
     3. [Tutorial Screen](#tutorial-screen)
     4. [Story Screen](#story-screen)
-    5. [Character Selection](#character-selection)
+    5. [Character Selection](#character-selection-screen)
     6. [HP Screen](#hp-screen)
     7. [Move Choice Screen](#move-choice-screen)
     8. [Enemy Turn](#enemy-turn-screen)
