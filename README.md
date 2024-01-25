@@ -185,9 +185,13 @@ Displays the remaing hp to the screen after the enemys turn and tells you what m
 
 ### Code Validation
 
-The [PEP8 online check](http://pep8online.com/) was used continuosly during the development proces to validate the Python code for PEP8 requirements. For this reason no before and after snapshots are available.
+The [CI Python Linter](https://pep8ci.herokuapp.com/#) was used continuosly during the development proces to validate the Python code. 
 
-![PEP8 Code Validation](assets/readme-files/pep8-code-validation.png)
+* Before
+![PEP8 Code Validation](assets/readme-files/errors.png)
+
+*After
+![PEP8 Code Validation](assets/readme-files/errors-fixed.png)
 
 ### Manual Testing
 
@@ -377,7 +381,7 @@ The [PEP8 online check](http://pep8online.com/) was used continuosly during the 
         <td><img src=assets/readme-files/keep-running.png alt="Restart the program"></td></tr>
 </table>
 
-[Back to top ⇧](#macro-calculator)
+* As a user, I want to know the remaining hp of the fighters to know where i stand in the battle after every attack
 
 ## Deployment
 
