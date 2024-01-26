@@ -90,7 +90,7 @@ def main():
     print("  Dragon Ball Z Fighters")
     print("  This is a dragon ball z fighting game.")
     draw_line()
-    input("> Continue")
+    input("> Continue\n")
     clear()
     draw_line()
     print("1: Story Mode")
@@ -98,7 +98,7 @@ def main():
     print("3: Tutorial")
     print("0: Quit")
     draw_line()
-    main_menu_choice = input("> ")
+    main_menu_choice = input("> \n")
     game_loop(main_menu_choice)
 
 
@@ -170,7 +170,7 @@ def draw_goku():
           "\\.\\.\\ \\\\.'       )     |")
     print("                  You play as Goku in the main Story Line")
     draw_line()
-    input("> Continue")
+    input("> Continue\n")
 
 
 def goku_meets_yamcha():
@@ -192,7 +192,7 @@ def goku_meets_yamcha():
     print("  or have they come across "
           "some trap left out by evil poachers.")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
     clear()
     draw_line()
     print("  Goku runs Towards the food.")
@@ -212,7 +212,7 @@ def goku_meets_yamcha():
     print("  Goku: Let's go Yamcha, I n"
           "ever back down from a challenge.")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
 
 
 def goku_meets_ox_king():
@@ -228,7 +228,7 @@ def goku_meets_ox_king():
     print("  Goku: but first we must meet the"
           " ox king to get something for Master Roshi")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
     clear()
     draw_line()
     print("  Goku, Krillin and yamcha walk through the dessert.")
@@ -242,7 +242,7 @@ def goku_meets_ox_king():
     print("  Beat me in a fight and I will know you are telling the truth")
     print("  Goku: Let's Fight!")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
     clear()
 
 
@@ -258,7 +258,7 @@ def goku_trains_with_roshi(character: Fighter):
     print("  Now, Goku, it's time for some training.")
     print("  Goku: I'm ready, Master.")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
     clear()
     draw_line()
     print("  Master Roshi trains Goku intensely, ")
@@ -272,14 +272,14 @@ def goku_trains_with_roshi(character: Fighter):
     print(f"  Special: {character.special + 5}")
     print(f"  Speed: {character.speed + 3}")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
     clear()
     draw_line()
     print("  Master Roshi: Well done, Goku. ")
     print("  Now, let's see how much you've improved.")
     print("  Goku and Master Roshi engage in a friendly spar.")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
 
 
 def goku_vs_piccolo():
@@ -295,7 +295,7 @@ def goku_vs_piccolo():
     print("  Piccolo: I've come to claim this island,")
     print("  and show you the true extent of my power.")
     draw_line()
-    input('> Continue')
+    input('> Continuen\n')
 
     clear()
     draw_line()
@@ -303,7 +303,7 @@ def goku_vs_piccolo():
     print("  Goku unleashes his true power "
           "and transforms into a Super Saiyan!")
     draw_line()
-    input('> Continue')
+    input('> Continue\n')
 
 
 def game_loop(main_menu_choice: str) -> None:
@@ -351,13 +351,13 @@ def game_loop(main_menu_choice: str) -> None:
         if not is_fight_won:
             print("  Master Roshi: Not bad, Goku,")
             print(" but there's always room for improvement.")
-            input('> Continue')
+            input('> Continue\n')
             main()
         else:
             print("  Master Roshi: Excellent! ")
             print("  You've grown stronger, Goku. Keep up the good work.")
         draw_line()
-        input('> Continue')
+        input('> Continue\n')
 
         # Chapter 3 Piccolo vs Goku
         goku_vs_piccolo()
@@ -395,7 +395,7 @@ def game_loop(main_menu_choice: str) -> None:
                   " a true protector of this island.")
             print("  I'm proud of you.")
         draw_line()
-        input('> Continue')
+        input('> Continue\n')
         main()
 
     elif main_menu_choice == "2":
@@ -405,7 +405,7 @@ def game_loop(main_menu_choice: str) -> None:
         draw_line()
         print("  Lets fight")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         battle_controller(character_choice, enemy_character)
         main()
     elif main_menu_choice == "3":
@@ -418,7 +418,7 @@ def game_loop(main_menu_choice: str) -> None:
         draw_line()
         print("  Please enter a valid option given above")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         main()
 
 
@@ -453,7 +453,7 @@ def choose_player():
         print("9: King Kai")
         print("0: Exit")
         draw_line()
-        character_choice = input("> ")
+        character_choice = input("> \n")
         if str(character_choice) == "0":
             main()
         try:
@@ -463,14 +463,14 @@ def choose_player():
             draw_line()
             print("  You chose " + character_choice.name)
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
             return character_choice
         except KeyError:
             clear()
             draw_line()
             print("  Invalid choice. Please select a valid character.")
             draw_line()
-            input("> ")
+            input("> \n")
             is_choosing_character = True
 
 
@@ -495,7 +495,7 @@ def choose_enemy_character():
     draw_line()
     print("  You are fighting against " + foe_character.name)
     draw_line()
-    input("> Continue")
+    input("> Continue\n")
     return foe_character
 
 
@@ -521,7 +521,7 @@ def battle_controller(player: Fighter, enemy: Fighter):
             draw_line()
             print("  Well done you won")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
             floss_dance_animation()
             clear()
             return True
@@ -530,7 +530,7 @@ def battle_controller(player: Fighter, enemy: Fighter):
         print("  " + player.name + " HP: " + str(player.hp_remaining))
         print("  " + enemy.name + " HP: " + str(enemy.hp_remaining))
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         # Decide who's turn it is
         # based on the speed stat
         # and previous move choice
@@ -548,7 +548,7 @@ def battle_controller(player: Fighter, enemy: Fighter):
         if is_player_turn:
             player_turn(player, enemy)
             show_hp(player, enemy)
-            input("> Continue")
+            input("> Continue\n")
             enemy_turn(player, enemy)
             if not is_player_dead(enemy):
                 player_turn(player, enemy)
@@ -618,7 +618,7 @@ def player_turn(player: Fighter, enemy: Fighter):
         print("3: energy blast")
         print("0: quit")
         draw_line()
-        player_move = input("> ")
+        player_move = input("> \n")
         if player_move == "0":
             is_game_loop = False
             main()
@@ -629,7 +629,7 @@ def player_turn(player: Fighter, enemy: Fighter):
             draw_line()
             print("  You used Punch")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
         elif player_move == "2":
             damage_calculation(player, enemy, 60)
             is_player_turn = False
@@ -637,7 +637,7 @@ def player_turn(player: Fighter, enemy: Fighter):
             draw_line()
             print("  You used Kick")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
         elif player_move == "3":
             damage_calculation(player, enemy, 20)
             is_player_turn = False
@@ -645,13 +645,13 @@ def player_turn(player: Fighter, enemy: Fighter):
             draw_line()
             print("  You used Energy Blast")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
         else:
             clear()
             draw_line()
             print("  Please select a valid move from the list above")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
             is_player_turn = True
 
 
@@ -668,7 +668,7 @@ def enemy_turn(player: Fighter, enemy: Fighter):
     draw_line()
     print("  Enemy Turn")
     draw_line()
-    input("> Continue")
+    input("> Continue\n")
     if enemy.energy_blast_counter == 1:
         enemy_move = 4
     else:
@@ -679,7 +679,7 @@ def enemy_turn(player: Fighter, enemy: Fighter):
         show_hp(player, enemy)
         print("  " + enemy.name + " used punch")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         return
     elif str(enemy_move) == "2":
         damage_calculation(enemy, player, 30)
@@ -687,7 +687,7 @@ def enemy_turn(player: Fighter, enemy: Fighter):
         show_hp(player, enemy)
         print("  " + enemy.name + " used Kick")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         return
     elif str(enemy_move) == "3":
         damage_calculation(enemy, player, 20)
@@ -695,7 +695,7 @@ def enemy_turn(player: Fighter, enemy: Fighter):
         show_hp(player, enemy)
         print("  " + enemy.name + " used energy ball")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
         return
     elif str(enemy_move) == "4":
         enemy.energy_blast_counter += 1
@@ -706,21 +706,21 @@ def enemy_turn(player: Fighter, enemy: Fighter):
             show_hp(player, enemy)
             print("  " + enemy.name + " used energy blast")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
             return
         else:
             is_player_turn = True
             show_hp(player, enemy)
             print("  " + enemy.name + " is storing energy")
             draw_line()
-            input("> Continue")
+            input("> Continue\n")
             return
     else:
         clear()
         draw_line()
         print("  we have a problem")
         draw_line()
-        input("> Continue")
+        input("> Continue\n")
 
 
 # Tutorial Main Method
@@ -734,7 +734,7 @@ def tutorial() -> None:
     print("  Let us start with a tutorial of Goku vs Freiza")
     print('  Your foe is weak so it should be easy to finish him off')
     draw_line()
-    input("> Continue")
+    input("> Continue\n")
     draw_line()
     # Fighters Declared
     goku = Fighter("Goku", 100, 10, 10, 10, 10)
